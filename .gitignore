@@ -1,0 +1,5 @@
+.env
+node_modules
+wallet.json
+wallet2.json
+data/bot-state.json
