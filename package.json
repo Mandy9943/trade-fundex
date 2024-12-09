@@ -9,7 +9,7 @@
     "dev": "CHAIN=mainnet ts-node src/index.ts",
     "watch": "tsc -w",
     "pm2": "npm run build && CHAIN=mainnet pm2 start dist/index.js --name 'bonk-bot'",
-    "pm2:restart": "pm2 restart bonk-bot"
+    "pm2:restart": "npm run build && pm2 restart bonk-bot"
   },
   "dependencies": {
     "@multiversx/sdk-core": "^13.15.0",
