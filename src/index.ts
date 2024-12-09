@@ -76,7 +76,7 @@ interface BotConfig {
 
 export class BONKBot {
   private bot: TelegramBot;
-  private adminChatId: number = 709820730;
+  private adminChatId: number = -4687184695;
   private api = axios.create({ baseURL: "https://api.multiversx.com" });
   private provider = new ProxyNetworkProvider(
     "https://gateway.multiversx.com",
